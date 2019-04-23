@@ -62,7 +62,7 @@ header{
 	min-height: 785px;
 }
 .articles li:nth-child(2){
-	min-height: 785px;	
+	min-height: 785px;
 	padding-top: 215px;
 }
 .articles li:nth-child(3){
@@ -132,24 +132,54 @@ header{
 .tools-left{
 	margin-top: 38px;
 	background: #aaa;
-	
+
 	width: calc(33.333333333% - 42px);
 	margin-left: 21px;
 	margin-right: 21px;
 	height: 285px;
 }
 .tools-right{
-	
+
 	background: #888;
 	width: 66.666667%;
 	min-height: 665px;
 }
 .tools-left-new{
-	
+
 	background: #aaa;
-	
+
 	width: calc(33.333333333% - 42px);
 	margin-left: 21px;
 	margin-right: 21px;
 	min-height: 285px;
+}
+
+.comming {
+  background-color: #999;
+  height: 450px;
+  text-align: center;
+  width: 100%;
+}
+.comming button {
+
+  margin-top: 90px;
+}
+
+.featured {
+  padding: 15px 50px;
+  height: 400px;
+  background-color: #777;
+}
+
+.btn-lg {
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 60px;
+  padding: 8px;
+}
+
+.section-title {
+  font-size: 2.5em;
 }
